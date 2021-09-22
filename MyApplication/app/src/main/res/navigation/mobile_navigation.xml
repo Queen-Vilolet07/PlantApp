@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.myapplication.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_category"
+        android:name="com.example.myapplication.ui.category.CategoryFragment"
+        android:label="@string/menu_category"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/nav_offers"
+        android:name="com.example.myapplication.nav_offers"
+        android:label="fragment_nav_offers"
+        tools:layout="@layout/fragment_nav_offers" />
+    <fragment
+        android:id="@+id/nav_newProducts"
+        android:name="com.example.myapplication.nav_newProducts"
+        android:label="fragment_nav_new_products"
+        tools:layout="@layout/fragment_nav_new_products" />
+    <fragment
+        android:id="@+id/nav_MyOrders"
+        android:name="com.example.myapplication.nav_MyOrders"
+        android:label="fragment_nav__my_orders"
+        tools:layout="@layout/fragment_nav__my_orders" />
+    <fragment
+        android:id="@+id/myCart"
+        android:name="com.example.myapplication.MyCart"
+        android:label="fragment_my_cart"
+        tools:layout="@layout/fragment_my_cart" />
+</navigation>

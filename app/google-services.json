@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "470593380529",
+    "project_id": "plant-zone-a9406",
+    "storage_bucket": "plant-zone-a9406.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470593380529:android:b4fe3670bea4c8faf54290",
+        "android_client_info": {
+          "package_name": "com.example.plantzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470593380529-r08u1f8tl15e2jb7qlh8t3o2ldpjdk7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDnIFVX4ewUpCbwdM-9xYUlA3yfNtbVuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470593380529-r08u1f8tl15e2jb7qlh8t3o2ldpjdk7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

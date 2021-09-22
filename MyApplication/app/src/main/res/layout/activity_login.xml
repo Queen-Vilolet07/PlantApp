@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <EditText
+        android:id="@+id/email_log"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edit_text_background"
+        android:drawableStart="@drawable/account"
+        android:elevation="2dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:padding="11dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.073"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/password_log"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edit_text_background"
+        android:drawableStart="@drawable/keylog"
+        android:ems="10"
+        android:hint="@string/password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:padding="11dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/email_log"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/email_log"
+        app:layout_constraintTop_toBottomOf="@+id/email_log"
+        app:layout_constraintVertical_bias="0.075"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button_log"
+        android:layout_width="162dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_background"
+        android:elevation="2dp"
+        android:text="@string/sign_in"
+        android:textColorHighlight="#29AB87"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/password_log"
+        app:layout_constraintStart_toStartOf="@+id/password_log"
+        app:layout_constraintTop_toBottomOf="@+id/password_log"
+        app:layout_constraintVertical_bias="0.338"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/account_log"
+        android:layout_width="224dp"
+        android:layout_height="34dp"
+        android:text="@string/don_t_have_an_account"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button_log"
+        app:layout_constraintStart_toStartOf="@+id/button_log"
+        app:layout_constraintTop_toBottomOf="@+id/button_log"
+        app:layout_constraintVertical_bias="0.611" />
+
+    <TextView
+        android:id="@+id/reg_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/register"
+        android:textColor="#29AB87"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/account_log"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/account_log"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="408dp"
+        android:layout_height="365dp"
+        android:contentDescription="@string/flowergirl2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047"
+        app:srcCompat="@drawable/flowergirl2"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textview_log"
+        android:layout_width="408dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="4dp"
+        android:background="#29AB87"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/plant_zone"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
