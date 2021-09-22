@@ -9,7 +9,7 @@ public class ViewAllModel implements Serializable {
     String name,description,rating,type,img_url;
     int price;
 
-    public ViewAllModel(FirebaseFirestore firestore) {
+    public ViewAllModel() {
     }
 
     public ViewAllModel(String name, String description, String rating, String type, String img_url, int price) {
