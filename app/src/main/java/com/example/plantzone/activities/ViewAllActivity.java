@@ -30,13 +30,6 @@ public class ViewAllActivity extends AppCompatActivity {
     Toolbar toolbar;
     ProgressBar progressBar;
 
-    public ViewAllActivity(){
-
-    }
-    
-    public ViewAllActivity(FirebaseFirestore db){
-        firestore=db;
-    }
 
     @SuppressLint("NotifyDataSetChanged")
     @Override
